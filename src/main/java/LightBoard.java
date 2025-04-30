@@ -11,7 +11,7 @@ public class LightBoard
   public LightBoard(int numRows, int numCols)
   {
     /* to be implemented in part (a) */
-    lights = new Boolean[numRows,numCols];
+    lights = new Boolean[numRows][numCols];
     for(int r = 0; r < numRows; r++){
       for(int c = 0; c < numCols; c++){
         double probability = Math.random();
