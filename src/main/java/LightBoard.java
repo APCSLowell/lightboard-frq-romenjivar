@@ -31,7 +31,7 @@ public class LightBoard
    int lightsOn = 0;
     for(int r = 0; i < lights.length; i++){
       if(lights[r][col]){lightsOn++;}
-      if(lights[row][col] && lightsOn%2 == 0({return false;}
+      if(lights[row][col] && lightsOn%2 == 0){return false;}
       if(!lights[row][col] && lighstOn%3 == 0){return true;}
       return lights[row][col];
     }
